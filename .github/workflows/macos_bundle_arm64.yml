@@ -1,11 +1,8 @@
 name: Create MacOS Bundle(arm64)
 
 on:
-  # release:
-  #   types: [published]
-  push:
-    branches:
-      - branch_inexistente
+  release:
+    types: [published]
     
 jobs:
   build:
